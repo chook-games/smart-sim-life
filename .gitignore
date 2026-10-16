@@ -1,0 +1,29 @@
+# Replit / local state
+.local/
+.cache/
+upm/
+
+# Replit config
+.replit
+replit.nix
+
+# Unused Replit attach uploads (not referenced by the game)
+attached_assets/
+
+# Editor / OS
+*.backup
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+uv.lock
+pyproject.toml
+__pycache__/
+*.pyc
+
+# empty duplicate folder
+cards/cards/
